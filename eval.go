@@ -9,6 +9,11 @@ func isLeaf(node *ASTNode) bool {
 	return node.l == nil && node.r == nil
 }
 
+func Eval(s string) float64 {
+	tr, _ := covertToTreeNodes(tokenize(s), 0)
+	return eval(tr)
+}
+
 func eval(root *ASTNode) float64 {
 	if isLeaf(root) {
 		v, err := strconv.ParseFloat(root.t.value, 32)
