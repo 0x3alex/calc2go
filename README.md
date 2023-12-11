@@ -8,3 +8,10 @@ Simple text base math solver for basic operations
 - Divide /
 - Exponent ^
 - Braces ( and )
+
+## Supported Numbers
+- Int
+- Float
+
+## Result 
+Results will be of type float
