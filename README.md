@@ -6,4 +6,5 @@ Simple text base math solver for basic operations
 - Substract -
 - Multiply *
 - Divide /
+- Exponent ^
 - Braces ( and )
